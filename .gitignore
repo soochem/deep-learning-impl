@@ -1,7 +1,17 @@
 # env
-.ipynb_checkpoints/
+.idea/
+venv/
+
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+src/__pycache__/
+*/src/__pycache__/
+
+# data
+pytorch-tutorials/.data/
 
 # not finished
 dl_class_tf.ipynb
 dl_class_mlp.ipynb
 tf_model.ipynb
+rnn/RNN*.ipynb
